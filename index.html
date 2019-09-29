@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Survey form
+    </title>
+    <link rel="stylesheet" href="styles.css" type="text/css"/>  
+  </head>
+  <body>
+    <h1 id="title"> School form for extracurricular activities</h1>
+    <div id="form-cnt">
+      <p id="description"> We want to know more about you</p>
+      <form id="survey-form">
+        <fieldset class="container">
+    
+          <div class="input-group">
+            <label for="name" id="name-label" class="left">Name:</label>
+            <input type="text" id="name" class="right" placeholder="Enter your name" required> 
+          </div>
+          
+          <div class="input-group">
+            <label for="e-mail" id="email-label" class="left">E-mail:</label>
+            <input type="email" id="email" class="right" placeholder= "Enter your e-mail" required>
+          </div>
+          
+          <div class="input-group">
+            <label for= "number" id="number-label" class="left">Age:</label>
+            <input type="number" id="number" class="right" placeholder= "Age" min=17 max=30 required>
+          </div>
+          
+          <div id="gender" class="input-group">
+              
+            <label>
+              Female
+              <input type="radio" name="gender" value="female">  
+            </label>
+              
+            <label>
+              Male
+              <input type="radio" name="gender" value="male">
+            </label>
+          </div>
+        
+          <div class="input-group">
+            <label id="dropdown-list">What do you like most?</label>
+            <select id="dropdown"> 
+              <option value="sports">Sports</option>
+              <option value="art">Artistics</option>
+              <option value="music">Music</option>
+              <option value="technology">Technology</option>
+            </select>
+          </div>
+          
+          <div class="input-group">
+            <p id="hobbie">
+              Which activity would you like to take this summer?
+            </p>
+            
+            <label for="basquetball">
+              <input id="basquetball" type="checkbox" name="activity" value="basquetball">
+              Basquet ball
+            </label>
+            
+            <label for="swimming">
+              <input id="swimming" type="checkbox" name="activity" value="swimming">
+              Swimming
+            </label>
+            
+            <label for="soccer">
+              <input id="soccer" type="checkbox" name="activity" value="soccer">
+              Soccer
+            </label>
+            
+            <label for="ballet">
+              <input id="ballet" type="checkbox" name="activity" value="ballet">
+            Ballet
+          </label>
+          
+          <label for="music">
+            <input id="music" type="checkbox" name="activity" value="music">
+            Music
+          </label> 
+    
+          <label for="web-design">  
+            <input id="web-design" type="checkbox" name="activity" value="web-design">
+            Web design</label>  
+          </div>
+          
+          <div class="input-group">
+          
+            <p> Let us know why you are interested in this activities</p>
+        
+            <textarea name="comment" rows="8" cols="45">Enter your comment here</textarea>
+          </div>
+        </fieldset> 
+        
+        <button id="submit">Submit</button>
+      </form>
+    </div>
+
+    
+  </body>
+</html>

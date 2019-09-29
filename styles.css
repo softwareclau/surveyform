@@ -1,0 +1,87 @@
+*{
+  font-family: monospace; 
+  color: #BA6267
+}
+
+body {
+  background-color: #FCE4C9;
+    margin: 30px;
+}
+  
+input, textarea {
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 8px 0px;
+}
+
+#number {
+  width: 10%;
+}
+
+.left {
+  width: 25%
+}
+
+.right {
+  text-align: left;
+  height: 60%;
+  padding-bottom: 6px;
+}
+
+#gender {
+  margin: 20px 0;
+}
+
+label {
+  width: 240px;
+  display: inline-block;
+  text-align: left;
+}
+
+h1 {
+  color:#C78283;
+  text-align: center;
+  font-size: 35px;
+  font-family: monospace;
+}
+
+p {
+  color: #BA6267;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px;
+}
+
+#form-cnt {
+  background-color: white;
+}
+
+#survey-form {
+  padding: 0px 25px;
+  margin: 0px;
+}
+
+#survey-form, #dropdown-list, #gender {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#dropdown {
+  font-size: 18px;
+}
+
+#submit {
+  font-size:20px;
+  color:white;
+  font-weight: bold;
+  background-color: #BA6267;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  margin: 40px;
+}
+
+#hobbie {
+  margin:0px
+}
+
